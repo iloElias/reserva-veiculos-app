@@ -1,0 +1,11 @@
+{
+    "car_data": [
+        {"car_name": "Monza", "car_color": "black", "rent_price": 150.00},
+        {"car_name": "Sedona", "car_color": "red", "rent_price": 200.00},
+        {"car_name": "Galaxy", "car_color": "blue", "rent_price": 180.00},
+        {"car_name": "Astra", "car_color": "silver", "rent_price": 160.00},
+        {"car_name": "Civic", "car_color": "white", "rent_price": 170.00},
+        {"car_name": "Mustang", "car_color": "yellow", "rent_price": 250.00},
+        {"car_name": "Rav4", "car_color": "green", "rent_price": 190.00}
+    ]
+}
