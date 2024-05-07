@@ -1,10 +1,11 @@
+import { Paper } from "@mui/material";
 import React from "react";
 
 const Home = () => {
 
-   return <div className="page-container">
-      
-   </div>; 
+  return <Paper className="page-container" square elevation={5} style={{ backgroundColor: "#223742", color: "white" }}>
+    Pagina Inicial
+  </Paper>;
 }
 
 export default Home;

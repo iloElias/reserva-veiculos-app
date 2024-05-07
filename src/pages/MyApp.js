@@ -7,17 +7,17 @@ import RentPage from "./RentPage";
 
 const ApplicationRoot = (customParams) => {
 
-    return <div className="application-root-container">
-        <Router>
-            <NavBar applicationIcon={<span class="material-symbols-outlined">directions_car</span>} />
-            <Routes>
-                <Route path="/" element={<Home />} />
-                <Route path="/about" element={<About />} />
-                <Route path="/cars" element={<RentPage />} />
-                {/* <Route path="/contact" element={<Contact />} /> */}
-            </Routes>
-        </Router>
-    </div>
+  return <div className="application-root-container">
+    <Router>
+      <NavBar applicationIcon={<span class="material-symbols-outlined">directions_car</span>} />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/about" element={<About />} />
+        <Route path="/cars" element={<RentPage />} />
+        {/* <Route path="/contact" element={<Contact />} /> */}
+      </Routes>
+    </Router>
+  </div>
 }
 
 export default ApplicationRoot;
