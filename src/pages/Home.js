@@ -1,9 +1,10 @@
 import React from "react";
 
 const Home = () => {
-    // const [user, setUser] = useState();
 
-   return <div className="page-container">Pagina inicial</div>; 
+   return <div className="page-container">
+      
+   </div>; 
 }
 
 export default Home;

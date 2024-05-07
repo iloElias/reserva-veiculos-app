@@ -9,7 +9,7 @@ const ApplicationRoot = (customParams) => {
 
     return <div className="application-root-container">
         <Router>
-            <NavBar />
+            <NavBar applicationIcon={<span class="material-symbols-outlined">directions_car</span>} />
             <Routes>
                 <Route path="/" element={<Home />} />
                 <Route path="/about" element={<About />} />

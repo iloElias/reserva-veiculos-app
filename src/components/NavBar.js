@@ -1,17 +1,18 @@
+import { Paper } from "@mui/material";
 import React from "react";
 import { Link } from "react-router-dom";
 
 const NavBar = ({ applicationIcon }) => {
 
-    return <nav className="main-nav-bar">
-        <div className="application-icon">{applicationIcon ?? ""}Logo</div>
+    return <Paper className="main-nav-bar" style={{backgroundColor: "#2E4756"}}>
+        <div className="application-icon">{applicationIcon ?? "Logo"}Car App</div>
         <ul>
-            <nl><Link to="/">Home</Link></nl>
-            <nl><Link to="/about">About</Link></nl>
-            <nl><Link to="/cars">Cars</Link></nl>
-            <nl><Link to="/contact">Contact</Link></nl>
+            <Link to="/">Home</Link>
+            <Link to="/about">About</Link>
+            <Link to="/cars">Cars</Link>
+            {/* <Link to="/contact">Contact</Link> */}
         </ul>
-    </nav>
+    </Paper>
 }
 
 export default NavBar;
