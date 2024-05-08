@@ -10,11 +10,10 @@ const CarItem = ({ carColor, carName, carPrice }) => {
 }
 
 const CarList = ({ carList }) => {
-
     return <div className="car-list-container">
         {carList.map((item, index) => {
-            return <CarItem key={index} carName={item.car_name} carPrice={item.car_price} />;
-        })};
+            return <CarItem key={index} carName={item.car_name} carPrice={item.car_price} />
+        })}
     </div>
 }
 
